@@ -1,0 +1,73 @@
+.training-section{
+    width: 100%;
+  padding-bottom: 50px;
+ 
+}
+.training-section h1{
+    text-align: center;
+    padding: 25px 0px;
+   
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    border: 2px solid white;
+   
+   
+    
+    
+}
+.training-items{
+    flex-basis: 23%;
+    margin: 10 0px;
+    text-align: center;
+    padding: 20px 0px;
+    background: white;
+   box-shadow: 0px 0px 10px 3px lightgray;
+
+}
+.training-items h3{
+    padding: 10px 0px;
+    color: #000;
+
+
+}
+.training-items p{
+      font-size: 14px;
+      padding: 14px;
+}
+.training-items button{
+    background: greenyellow;
+    padding: 10px 25px;
+    border: none;
+    color: black;
+    margin: 10px 0px;
+    border-radius: 14px;
+    text-transform: capitalize;
+
+}
+.training-items:hover{
+    background: rgb(52, 233, 106);
+
+}
+.training-items:hover h3{
+    color: bisque;
+}
+.training-items:hover button{
+    background: white;
+    color: blueviolet;
+}
+@media only screen and(min-width: 200px) and (max-width: 767px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .training-items{
+        margin: 10px;
+    }
+}
